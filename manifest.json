@@ -1,0 +1,25 @@
+{
+  "name": "西游记怀旧mud",
+  "short_name": "西游记mud",
+  "description": "西游记mud是源自Mud西游记2000的经典还原H5网页文字游戏",
+  "start_url": "/index.html",
+  "display": "standalone",
+  "background_color": "#ffffff",
+  "theme_color": "#226997",
+  "orientation": "portrait",
+  "icons": [
+    {
+      "src": "pic/favicon.ico",
+      "sizes": "192x192",
+      "type": "image/x-icon",
+      "purpose": "any maskable"
+    },
+    {
+      "src": "pic/dao.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "any maskable"
+    }
+  ],
+  "categories": ["games", "entertainment"]
+}

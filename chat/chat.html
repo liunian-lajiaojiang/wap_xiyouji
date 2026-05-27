@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="zh-cn">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1, maximum-scale=1, user-scalable=no">
+    <meta name="keywords" content="西游记mud,西游记怀旧mud，西游记h5">
+    <meta name="description" content="西游记mud是源自Mud西游记2000的经典还原H5网页文字游戏。">
+    <link rel="shortcut icon" href="../pic/favicon.ico">
+    <link rel="stylesheet" href="../css/chat.css">
+    <title>聊天_西游记mud</title>
+</head>
+
+<body>
+    <p>
+        <a href="javascript:location.reload();">聊天</a>&ensp;
+        <a href="#" onclick="javascript:history.back(-1);">返回</a>
+    </p>
+    <hr>
+    <div id="container">
+        <div class="header">
+            <span><a href="javascript:location.reload();">全部</a></span>&ensp;
+            <span><a href="javascript:location.reload();">私聊</a></span>&ensp;
+            <span><a href="javascript:location.reload();">系统</a></span>&ensp;
+        </div>
+        <hr>
+        <ul class="content"></ul>
+        <div class="footer">
+            <input id="text" type="text" placeholder="说点什么吧..." autofocus>
+            <span id="btn">发送</span>
+        </div>
+    </div>
+
+    <div style="position: fixed; bottom: 0; width: 100%; text-align: center; font-size: 12px;">
+        <p>当前时间:
+            <script src="../js/time.js"></script>
+        </p>
+        <a href="javascript:location.reload();">刷新此页面</a>
+        <a href="../index.html">重新登录</a>
+    </div>
+    <script src="../js/chat.js"></script>
+</body>
+</html>

@@ -1,0 +1,25 @@
+@charset "utf-8";
+/* CSS Document */
+
+:root{
+        -accent: #226997;
+        -main: #333;
+        -light: #666;
+        -lighter: #f3f3f3;
+        -border: #e6e6e6;
+        /*-bg:;*/}
+html,body{
+        background-color: var(-bg);}
+p{
+        color: var(-main);}
+.daojishi{
+	font-size:22px;
+	font-weight:bold;}
+.proccess{
+	border-bottom: 1px solid;
+	border-left: 1px solid;
+	border-right: 1px solid;
+	border-top: 1px solid;
+	height: 8px;
+	margin: 3px;
+	width: 8px;}
